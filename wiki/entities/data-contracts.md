@@ -3,7 +3,7 @@ title: "Data Contracts"
 type: entity
 category: concept
 tags: [data-contracts, enforcement, schema, ci-cd, shift-left]
-source_count: 2
+source_count: 4
 ---
 
 ## Definition
@@ -23,6 +23,9 @@ A data contract is an explicit, versioned agreement between a data producer and 
 | YAML contract specifies field constraints and change policies explicitly | [[wiki/sources/data-contracts-technical-enforcement]] |
 | dbt + Soda Core maps contract requirements to transformation tests | [[wiki/sources/data-contracts-technical-enforcement]] |
 | Confluent Schema Registry validates compatibility before streaming deployment | [[wiki/sources/data-contracts-technical-enforcement]] |
+| Contracts bridge business intent and technical implementation — engineers build against standards, not policies | [[wiki/sources/data-standard-governance-architecture-of-trust]] |
+| CI pipeline intercepts PRs, checks against contract, blocks deployment on breaking change | [[wiki/sources/data-standard-governance-architecture-of-trust]] |
+| Data contracts codified in YAML/ODCS are the primary technical enforcement mechanism | [[wiki/sources/data-standard-governance-main]] |
 
 ## Open Questions
 - Exact performance overhead of comprehensive read-time vs. write-time validation on high-throughput streaming workloads not yet quantified.

@@ -3,7 +3,7 @@ title: "Federated Governance"
 type: entity
 category: concept
 tags: [federated-governance, operating-model, decentralized, data-mesh, business-accountability]
-source_count: 3
+source_count: 5
 ---
 
 ## Definition
@@ -24,6 +24,8 @@ Federated Governance is a data governance operating model where central teams de
 | Governance "runway" (intake → triage → design authority → exception handling) needed for federated to work predictably | [[wiki/sources/data-gov-best-practices-operations]] |
 | Data Mesh implements federated governance at the architecture level — domain-oriented data products | [[wiki/sources/data-gov-best-practices-cloud-ai]] |
 | Central teams define baseline standards; domain stewards closest to data own enforcement | [[wiki/sources/data-contracts-technical-enforcement]] |
+| Central team sets "absolute minimum baseline" for security, compliance, architecture — domains own everything else | [[wiki/sources/data-standard-governance-architecture-of-trust]] |
+| Decision architecture over structure — governance follows decision rights, not org chart | [[wiki/sources/data-standard-governance-practices]] |
 
 ## Open Questions
 - How do federated stewardship structures hold up when a single ML training job crosses 20+ domain boundaries? Who is accountable when training data fails a quality threshold?

@@ -3,7 +3,7 @@ title: "Data Stewardship"
 type: entity
 category: concept
 tags: [data-stewardship, roles, accountability, governance-operations, domain]
-source_count: 3
+source_count: 5
 ---
 
 ## Definition
@@ -31,6 +31,8 @@ Data stewardship is the operational layer of data governance — the practice of
 | Titles without decision rights, artifacts, and protected capacity are symbolic | [[wiki/sources/data-gov-best-practices-operations]] |
 | Non-IT executive sponsor required for middle management compliance | [[wiki/sources/data-gov-best-practices-operations]] |
 | Domain stewards closest to data enforce quality within their domains | [[wiki/sources/data-contracts-technical-enforcement]] |
+| Stewards are subject matter experts in the business unit, not IT admins — they own semantic meaning, quality thresholds, and escalation | [[wiki/sources/data-standard-governance-architecture-of-trust]] |
+| Domain-centric ownership: assign by domain (master data, reference data) so accountability sits with those closest | [[wiki/sources/data-standard-governance-practices]] |
 
 ## Open Questions
 - Limited concrete guidance on HR compensation/bonus structures to incentivize active data stewardship among business users.

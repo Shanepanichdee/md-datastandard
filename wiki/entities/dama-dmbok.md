@@ -3,7 +3,7 @@ title: "DAMA-DMBOK"
 type: entity
 category: framework
 tags: [dama, dmbok, framework, data-management, knowledge-areas, governance]
-source_count: 3
+source_count: 5
 ---
 
 ## Definition
@@ -24,6 +24,8 @@ The Data Management Body of Knowledge (DAMA-DMBOK) is a comprehensive, vendor-ne
 | Semantic standards emphasized in Metadata Management and Data Modeling areas | [[wiki/sources/data-contracts-technical-enforcement]] |
 | Structural standards classified under Data Architecture | [[wiki/sources/data-contracts-technical-enforcement]] |
 | Data Security knowledge area covers GDPR/CCPA compliance | [[wiki/sources/data-contracts-technical-enforcement]] |
+| DMBOK implementation requires phased roadmap targeting 2–3 high-impact areas first | [[wiki/sources/data-standard-governance-frameworks]] |
+| DMBOK framework applied via context diagrams — outputs of one area feed inputs to another | [[wiki/sources/data-standard-governance-frameworks]] |
 
 ## Open Questions
 - DMBOK describes "what" — no single source benchmarks which of the 11 areas delivers the highest ROI when prioritized first across industry verticals.

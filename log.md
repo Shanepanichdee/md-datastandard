@@ -42,3 +42,19 @@ grep "^## \[" log.md | tail -5
 - Topic pages created (2): [[wiki/topics/data-governance-best-practices]], [[wiki/topics/ai-ready-data-governance]]
 - Pages updated: index.md (sources 1→5, wiki pages 3→18), log.md
 - Notes: New topic track — Governance Best Practices and AI-Ready Governance. Key additions: Data Mesh, AI agent defense-in-depth (Identity Passthrough RFC 8693), MCP security, tag-based dynamic masking, Snowflake DMFs, governance anti-patterns (6 patterns), 90-day adoption playbook. Three open questions logged: streaming perf, cross-platform AI federation, post-implementation decay.
+
+---
+
+## [2026-04-19] ingest | Data Standards prior knowledge batch (4-file batch)
+
+- Sources (4):
+  - local:raw/data-standard-governance.md → [[wiki/sources/data-standard-governance-main]]
+  - local:raw/data-standard-governance-frameworks.md → [[wiki/sources/data-standard-governance-frameworks]]
+  - local:raw/data-standard-governance-practices.md → [[wiki/sources/data-standard-governance-practices]]
+  - local:raw/data-standard-governance- The Architecture of Trust...md → [[wiki/sources/data-standard-governance-architecture-of-trust]]
+- Metadata files skipped: data-standard-governance-tech.md (already ingested), -brief.md (duplicate), -verification.md, .provenance.md, 000_ MOC
+- Entity pages created (6): [[wiki/entities/data-standards-taxonomy]], [[wiki/entities/odcs]], [[wiki/entities/ci-cd-enforcement]], [[wiki/entities/atlan]], [[wiki/entities/databricks-dlt]], [[wiki/entities/great-expectations]]
+- Entity pages updated (4): [[wiki/entities/data-contracts]] (→4 sources), [[wiki/entities/federated-governance]] (→5), [[wiki/entities/data-stewardship]] (→5), [[wiki/entities/dama-dmbok]] (→5)
+- Topic pages created (1): [[wiki/topics/data-standards-definition-taxonomy]]
+- Pages updated: index.md (sources 5→9, wiki pages 18→32), log.md, Legacy section removed (files now in raw/)
+- Notes: Policy vs. standard distinction now documented. 6 quality sub-dimensions (Completeness/Accuracy/Validity/Uniqueness/Timeliness/Consistency) with concrete rule examples added to taxonomy entity. Architecture of Trust article is richest single narrative source in wiki — covers every dimension with engineering-grade examples.
