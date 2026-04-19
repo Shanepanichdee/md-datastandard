@@ -3,7 +3,7 @@ title: "Data Contracts"
 type: entity
 category: concept
 tags: [data-contracts, enforcement, schema, ci-cd, shift-left]
-source_count: 1
+source_count: 2
 ---
 
 ## Definition
@@ -29,4 +29,4 @@ A data contract is an explicit, versioned agreement between a data producer and 
 - API interactions between catalogs and IdPs for dynamic RBAC enforcement not deeply explored.
 
 ## Links
-[[wiki/entities/ci-cd-enforcement]], [[wiki/entities/odcs]], [[wiki/entities/great-expectations]], [[wiki/entities/databricks-dlt]], [[wiki/topics/technical-enforcement-of-data-standards]]
+[[wiki/entities/ci-cd-enforcement]], [[wiki/entities/odcs]], [[wiki/entities/great-expectations]], [[wiki/entities/databricks-dlt]], [[wiki/entities/unity-catalog]], [[wiki/topics/technical-enforcement-of-data-standards]], [[wiki/topics/data-governance-best-practices]]

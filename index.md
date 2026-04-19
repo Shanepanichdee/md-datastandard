@@ -1,7 +1,7 @@
 # Wiki Index: Data Standards & Enterprise Data Governance
 
 > LLM-maintained catalog. Updated on every ingest operation.
-> Last updated: 2026-04-19 | Sources ingested: 1 | Wiki pages: 3
+> Last updated: 2026-04-19 | Sources ingested: 5 | Wiki pages: 18
 
 ---
 
@@ -11,6 +11,8 @@
 | Page | Summary | Sources | Updated |
 |------|---------|---------|---------|
 | [[wiki/topics/technical-enforcement-of-data-standards]] | Shift-left enforcement via data contracts, CI/CD gates, and ingestion-time quality rules | 1 | 2026-04-19 |
+| [[wiki/topics/data-governance-best-practices]] | Federated models, decision rights, 90-day adoption playbook, anti-patterns — 80% of programs fail organizationally | 4 | 2026-04-19 |
+| [[wiki/topics/ai-ready-data-governance]] | Unified data+AI control planes, tag-based security, DMFs, Data Mesh, MCP security, defense-in-depth for AI agents | 2 | 2026-04-19 |
 
 ---
 
@@ -19,7 +21,16 @@
 
 | Page | Category | Summary | Sources |
 |------|----------|---------|---------|
-| [[wiki/entities/data-contracts]] | concept | Executable schema agreements (YAML/JSON/ODCS) stored in Git; enforce standards in CI/CD | 1 |
+| [[wiki/entities/data-contracts]] | concept | Executable schema agreements (YAML/JSON/ODCS) stored in Git; enforce standards in CI/CD | 2 |
+| [[wiki/entities/dama-dmbok]] | framework | 11 knowledge areas, DAMA Wheel, phased rollout — central reference for data management | 3 |
+| [[wiki/entities/dcam]] | framework | EDM Council maturity model, 1–6 scale, Foundation/Execution/Collaboration — benchmarking tool | 2 |
+| [[wiki/entities/federated-governance]] | concept | Central teams set standards; business domains own execution — dominant model for large enterprises | 3 |
+| [[wiki/entities/data-stewardship]] | concept | Role hierarchy (CDO → Domain Owner → Steward); decision rights required for roles to be effective | 3 |
+| [[wiki/entities/data-mesh]] | concept | Domain-owned data products, self-serve platform, federated governance at architecture level | 2 |
+| [[wiki/entities/ai-governance]] | concept | Unified data+AI control planes, Identity Passthrough, MCP security, EU AI Act compliance | 2 |
+| [[wiki/entities/unity-catalog]] | tool | Databricks unified governance for tables, unstructured data, and ML models in one metastore | 2 |
+| [[wiki/entities/snowflake-horizon]] | tool | Snowflake governance layer — tag-based masking, DMFs, AI model governance | 1 |
+| [[wiki/entities/governance-anti-patterns]] | concept | Six failure patterns: committee governance, tool-first, maturity trap, boiling ocean, IT ownership, symbolic stewardship | 2 |
 
 ---
 
@@ -29,6 +40,10 @@
 | Page | Title | Date Ingested | URL/File |
 |------|-------|---------------|----------|
 | [[wiki/sources/data-contracts-technical-enforcement]] | Technical Codification and Enforcement of Data Standards | 2026-04-19 | local:data-standard-governance-tech.md |
+| [[wiki/sources/data-gov-best-practices]] | Data Governance Best Practices: From Traditional Frameworks to AI-Ready Architectures | 2026-04-19 | local:raw/data-gov-best-practices copy.md |
+| [[wiki/sources/data-gov-best-practices-frameworks]] | Research: Traditional Data Governance Frameworks and Core Pillars | 2026-04-19 | local:raw/data-gov-best-practices-research-frameworks copy.md |
+| [[wiki/sources/data-gov-best-practices-cloud-ai]] | Research: Cloud and AI Data Governance Best Practices (2025–2026) | 2026-04-19 | local:raw/data-gov-best-practices-research-cloud-ai copy.md |
+| [[wiki/sources/data-gov-best-practices-operations]] | Research: Data Governance Best Practices (Operations & People) | 2026-04-19 | local:raw/data-gov-best-practices-research-operations copy.md |
 
 ---
 
